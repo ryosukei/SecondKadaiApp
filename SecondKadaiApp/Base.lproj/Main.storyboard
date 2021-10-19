@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eq-LH-hq8">
-                                <rect key="frame" x="103" y="127" width="208" height="21"/>
+                                <rect key="frame" x="103" y="144" width="208" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gbx-C4-QvG">
-                                <rect key="frame" x="103" y="233" width="208" height="34"/>
+                                <rect key="frame" x="103" y="245" width="208" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="TaE-Bw-MCd"/>
@@ -32,7 +32,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nP-i6-l0T">
-                                <rect key="frame" x="168.5" y="349" width="77" height="30"/>
+                                <rect key="frame" x="168.5" y="361" width="77" height="30"/>
                                 <state key="normal" title="結果を見る"/>
                                 <connections>
                                     <segue destination="EqZ-Ra-XSj" kind="show" id="OkS-Z7-l5r"/>
@@ -42,13 +42,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Gbx-C4-QvG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="864-r6-prf"/>
-                            <constraint firstItem="Gbx-C4-QvG" firstAttribute="centerX" secondItem="0eq-LH-hq8" secondAttribute="centerX" id="bvg-th-a9o"/>
+                            <constraint firstItem="1nP-i6-l0T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Niu-S1-u23"/>
+                            <constraint firstItem="0eq-LH-hq8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PcE-Pq-vB3"/>
+                            <constraint firstItem="Gbx-C4-QvG" firstAttribute="top" secondItem="0eq-LH-hq8" secondAttribute="bottom" constant="80" id="RGV-dG-7Q0"/>
+                            <constraint firstItem="Gbx-C4-QvG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bFN-P7-k81"/>
                             <constraint firstItem="1nP-i6-l0T" firstAttribute="top" secondItem="Gbx-C4-QvG" secondAttribute="bottom" constant="82" id="jMX-1m-T30"/>
                             <constraint firstItem="Gbx-C4-QvG" firstAttribute="leading" secondItem="0eq-LH-hq8" secondAttribute="leading" id="jy0-pY-yGq"/>
-                            <constraint firstItem="1nP-i6-l0T" firstAttribute="centerX" secondItem="0eq-LH-hq8" secondAttribute="centerX" id="sCa-pm-SnQ"/>
-                            <constraint firstItem="Gbx-C4-QvG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="233" id="sap-41-ppw"/>
-                            <constraint firstItem="Gbx-C4-QvG" firstAttribute="top" secondItem="0eq-LH-hq8" secondAttribute="bottom" constant="85" id="vGk-kk-XU3"/>
+                            <constraint firstItem="0eq-LH-hq8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="nZG-cT-TzH"/>
                         </constraints>
                     </view>
                     <connections>
